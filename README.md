@@ -44,3 +44,9 @@ I have used the MNIST Hand written digits dataset to train the Siamese network a
 
 On the MNIST dataset the detected object (digit 3 here):
 ![result_image](./resources/download.png)
+
+## Future Work
+
+1. The siamese network restricts the number of classes to one, ways of making the classes > 1, finding the closest class approach should be explored.
+
+2. A more standard object detection type of architecture with a siamese network as a backbone (using the embeddings from siamese network) should be explored to replace sliding box algorithm.
