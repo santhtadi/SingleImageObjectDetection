@@ -30,6 +30,10 @@ The approach consists of three main parts:
 2. **A sliding window** on a input image from which we extract Region of interests (ROI) and use the siamese network to calculate the probability of an object being present in the give ROI.
 3. **Non max suppression** that process the various locations where the object is present based on confidences and nms thresh to give the most accurate location
 
+A siamese network is trained on the MNIST dataset, it takes two digits and calculates the similarity between them.
+
+The siamese network and the corresponding confidences of each ROI from sliding window approach is saved and NMS is applied on it to suppress incorrect and duplicate regions.
+
 ![result_image](./resources/approach.gif)
 
 ## Dataset
