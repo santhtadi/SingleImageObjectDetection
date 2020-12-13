@@ -1,0 +1,6 @@
+dataset/
+annotations/
+mAP/
+results/
+model/
+train-images-idx3-ubyte/
